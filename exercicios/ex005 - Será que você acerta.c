@@ -7,11 +7,11 @@ void main(){
     setlocale(LC_ALL, "Portuguese");
     srand(time(NULL));
 
-    int n_pc = rand() % 5;
+    int n_pc = (rand() % 5) + 1; // Gera um número aleatório e mostra o resto da divisão por 5, que pode ser 0, 1, 2, 3 e 4, depois soma 1.
     int n_usuario;
 
     printf("<<< EX005 - Será que você acerta? >>>\n");
-    printf("\nVou pensar em um número entre 0 e 5.");
+    printf("\nVou pensar em um número entre 1 e 5.");
     printf("\nQual é o seu palpite? ");
     scanf("%d", &n_usuario);
     printf("Eu pensei no número %d e você pensou no número %d.", n_pc, n_usuario);

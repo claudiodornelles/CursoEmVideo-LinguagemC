@@ -5,18 +5,18 @@
 
 void main(){
     srand(time(NULL));
-    int n = rand() % 3;
+    int n = (rand() % 3) + 1;
     printf("%d\n", n);
-    n = rand() % 3;
+    n = (rand() % 3) + 1;
     printf("%d\n", n);
-    n = rand() % 3;
+    n = (rand() % 3) + 1;
     printf("%d\n", n);
-    n = rand() % 3;
+    n = (rand() % 3) + 1;
     printf("%d\n", n);
-    n = rand() % 3;
+    n = (rand() % 3) + 1;
     printf("%d\n", n);
-    n = rand() % 3;
+    n = (rand() % 3) + 1;
     printf("%d\n", n);
-    n = rand() % 3;
+    n = (rand() % 3) + 1;
     printf("%d\n", n);
 }
