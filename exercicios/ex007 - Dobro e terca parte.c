@@ -10,6 +10,6 @@ void main(){
     printf("\nDigite um número: ");
     scanf("%d", &numero);
     dobro = numero * 2;
-    terca = numero / 3;
+    terca = (float) numero / 3;
     printf("Analisando o número %d, seu dobro é %d e sua terça parte é %.2f.", numero, dobro, terca);
 }
